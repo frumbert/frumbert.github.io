@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>{{name}}</title>
+    <meta name="viewport" content="width=device-width"/>
+    <style type="text/css">
+      html,
+      body,
+      #h5p-container,
+      #h5p-container > .h5p-iframe-wrapper,
+      #h5p-container > .h5p-iframe-wrapper > iframe {
+        margin: 0px;
+        padding: 0px;
+        height: 100vh !important; /* no seriously, it is important to avoid a rediculous resize bug in h5p */
+        width: 100vw !important;
+        overflow: hidden;
+        background-color: black;
+      }
+    </style>
+    <script type="text/javascript" src="dist/main.bundle.js"></script>
+  </head>
+  <body>
+    <div id="h5p-container"></div>
+    <script type="text/javascript">
+      const el = document.getElementById('h5p-container');
+        const options = {
+          h5pJsonPath:  '.',
+          frameJs: 'dist/frame.bundle.js',
+          frameCss: 'dist/styles/h5p.css',
+          fullScreen: true
+        }
+      new H5PStandalone.H5P(el, options);
+    </script>
+  </body>
+</html>
