@@ -22,7 +22,7 @@ function process(ab) {
     new Promise(function(finalResolve, finalReject) {
         new JSZip.external.Promise(function h5p_export_load_template(innerResolve, innerReject) {
             // load the source zip file
-            JSZipUtils.getBinaryContent(location.origin + location.pathname + App.templateName, function(err, data) {
+            JSZipUtils.getBinaryContent(location.href.substring(0, location.href.lastIndexOf('/')) + '/' + App.templateName, function(err, data) {
                 if (err) {
                     innerReject(err);
                 } else {
