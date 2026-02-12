@@ -21,3 +21,9 @@ Lets you unpack and explore the course data in a RISE course. Browse quiz answer
 A catalogue of scripts and ideas I've put together for Articulate Rise/Mighty. Custom interactions and interesting hacks, SCORM 1.2 data extensions, and some other fun!
 
 [Start here](https://rise.frumbert.org/article/about-interactions/1)
+
+### Quill + CodeMirror Html Editor
+
+Plain as it comes, unopinionated HTML editor that shows editor and code side-by-side. For the simple things.
+
+[Edit](https://edit.frumbert.org)
