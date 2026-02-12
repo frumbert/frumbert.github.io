@@ -6,8 +6,12 @@ This tool will take the `.h5p` file you upload and pack it into a new zip file w
 
 [Access the tool](h5p/index.html)
 
-### Articulate Rise rePackager
+Last updated: 5 years ago
 
-Takes a Rise package and repacks the course data with locally downloaded versions of all external assets matching the URL. Add custom CSS. Upload files to the assets folder. Utility stuff.
+### Articulate Rise CourseData Hacker
 
-[Access the tool](https://www.frumbert.org/risefix/index.php)
+Lets you unpack and explore the course data in a RISE course. Browse quiz answers. Find & Replace. Edit the HTML. Change the 'goodbye' page. Download external iframe sources & repack the zip. A whole lot of things you can't normally do!
+
+[Access the tool](https://www.frumbert.org/risefix/rise-coursedata-editor.html)
+
+[Previous version](https://www.frumbert.org/risefix/index.php)
