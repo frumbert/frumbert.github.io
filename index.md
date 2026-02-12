@@ -15,3 +15,9 @@ Lets you unpack and explore the course data in a RISE course. Browse quiz answer
 [Access the tool](https://www.frumbert.org/risefix/rise-coursedata-editor.html)
 
 [Previous version](https://www.frumbert.org/risefix/index.php)
+
+### Custom interactions for Rise
+
+A catalogue of scripts and ideas I've put together for Articulate Rise/Mighty. Custom interactions and interesting hacks, SCORM 1.2 data extensions, and some other fun!
+
+[Start here](https://rise.frumbert.org/article/about-interactions/1)
