@@ -27,3 +27,8 @@ A catalogue of scripts and ideas I've put together for Articulate Rise/Mighty. C
 Plain as it comes, unopinionated HTML editor that shows editor and code side-by-side. For the simple things.
 
 [Edit](https://edit.frumbert.org)
+
+### Other
+
+[Repositories](https://github.com/frumbert)
+[Website](https://www.frumbert.org)
